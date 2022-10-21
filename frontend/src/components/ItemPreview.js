@@ -19,7 +19,7 @@ const mapDispatchToProps = (dispatch) => ({
 
 const ItemPreview = (props) => {
   const item = props.item;
-  const placeholder = "/placeholder.png"
+  const placeholder = "/placeholder.png";
   let isImageBlank = (item.image !== placeholder);
 
   const handleClick = (ev) => {
